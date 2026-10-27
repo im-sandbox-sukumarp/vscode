@@ -6,6 +6,22 @@
 
 This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, but we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
 
+## Repository Layout
+
+The main parts of the repository are:
+
+| Path | Contents |
+| --- | --- |
+| `src/vs/base` | Shared utilities and browser abstractions |
+| `src/vs/platform` | Platform services and dependency injection |
+| `src/vs/editor` | The editor and its language-independent features |
+| `src/vs/workbench` | The workbench UI and its features |
+| `src/vs/code` and `src/vs/server` | Desktop and server entry points |
+| `src/vs/sessions` | The Agents Window |
+| `extensions` | Built-in extensions that ship with VS Code |
+| `build` and `scripts` | Build tooling and development scripts |
+| `test` | Integration tests and test infrastructure |
+
 ## Visual Studio Code
 
 <p align="center">
